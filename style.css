@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+.house {
+  position: relative;
+	background-color: rgb(214, 109, 11);
+	display: flex;
+	width: 200px;
+	height: 150px;
+}
+.roof {
+  position: absolute;
+  top: -35%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+  border-bottom: 60px solid #a00606;
+}
+.pipe {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+	background-color: rgb(77, 30, 3);
+  margin-left: 130px;
+  transform: translateY(-160%);
+}
+.window {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transform: translate(75px,30px);
+  border-radius: 50%;
+  background-color: rgb(20, 146, 204);
+}
+.door {
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  transform: translate(140px, 70px);
+  background-color: rgb(107, 52, 0);
+}
